@@ -31,6 +31,11 @@ public class Menu {
 
     public static User loginMenu(){
 //       get user info : username, password
+        Scanner log=new Scanner(System.in);
+        System.out.print("Enter your username: ");
+        String username =log.next();
+        System.out.print("Enter your password: ");
+        String password = log.next();
         return null;
     }
 
@@ -42,6 +47,6 @@ public class Menu {
         game.joinServer(ip,port);
     }
     public static void main(String[] args) {
-            showMenu();
+        showMenu();
     }
 }
