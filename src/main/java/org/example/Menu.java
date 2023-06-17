@@ -21,6 +21,12 @@ public class Menu {
     }
     public static void mainMenu(){
 //        show menu : sout ()
+        System.out.println("***Welcome to light city***");
+        System.out.println("1- Continue");
+        System.out.println("2- Start New Game");
+        System.out.println("3- Join Server");
+        System.out.println("4- Exit");
+
     }
 
     public static User loginMenu(){
