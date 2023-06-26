@@ -53,6 +53,7 @@ public class City implements CityInterface {
                 Scanner scanner = new Scanner(System.in);
                 while (true) {
                     System.out.println("Show Menu");
+
                     switch (scanner.next()) {
                         case "2"-> System.out.println("Do Something");
                         case "3"-> System.out.println("Do Something");

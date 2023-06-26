@@ -7,7 +7,7 @@ import org.example.models.User;
 
 import java.util.ArrayList;
 
-public class Game implements GameInterface {
+public class  Game implements GameInterface {
 
 //    Check Data from Database or file to see There is city or not
     private City city;
